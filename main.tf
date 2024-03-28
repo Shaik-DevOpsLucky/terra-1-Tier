@@ -45,3 +45,4 @@ resource "aws_security_group" "five" {
     cidr_blocks = ["0.0.0.0/0"]
   }
 }
+# continous integration build triggering when the code push into the scm
